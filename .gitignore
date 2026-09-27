@@ -1,0 +1,43 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.db
+*.sqlite
+*.sqlite3
+
+# Models
+*.pt
+*.pth
+*.bin
+*.onnx
+*.h5
+model_output/
+
+# Logs
+*.log
+wandb/
+mlruns/
